@@ -9,9 +9,9 @@ Based on a custom Figma layout:
 
 ## 💡 Tech Stack
 
-- HTML5
-- CSS3 (mobile-first responsive design)
-- JavaScript (basic animation handling)
+- HTML5 (page structure)
+- CSS3 (responsive design)
+- JavaScript (animation handling)
 
 
 ---
