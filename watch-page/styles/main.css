@@ -1,0 +1,57 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  color: #111;
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto; /* center the content */
+  background-color: #fff; /* optional, for clarity */
+}
+
+
+/* Header styling */
+header {
+  background-color: black;
+  padding: 0.75rem 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav img {
+  width: 25px;
+  height: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image img {
+  width: 66.5vw; /* 286px / 430px screen width = ~66.5% */
+  max-width: 286px; /* Never go bigger than Figma design */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-info {
+    display: flex;
+    justify-content: center;
+}
