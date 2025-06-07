@@ -22,36 +22,94 @@ body {
 /* Header styling */
 header {
   background-color: black;
-  padding: 0.75rem 1rem;
+  padding: 0.21875rem 1rem;
+}
+
+/* Header styling */
+header {
+  background-color: black;
+  height: 3.75rem; /* 60px */
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  width: 100%;
+  height: 1.5625rem;
 }
 
-nav img {
-  width: 25px;
-  height: 25px;
+/* Icon on the left */
+.homeIcon {
+  width: 1.5625rem; /* 25px */
+  height: 1.5625rem; /* 25px */
 }
 
+/* Right nav links */
 nav a {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9375rem; /* 15px */
+  font-weight: 300; /* Light */
   color: white;
   text-decoration: none;
-  font-weight: bold;
+}
+
+#hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-image img {
-  width: 66.5vw; /* 286px / 430px screen width = ~66.5% */
-  max-width: 286px; /* Never go bigger than Figma design */
-  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 1.75rem auto 0 auto; /* top padding = 1.75rem */
 }
 
-.hero-info {
-    display: flex;
-    justify-content: center;
+.hero-info h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 1.25rem;
 }
+
+.name h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  text-align: center;
+  padding-top: 0.75rem;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.625rem;
+  margin-bottom: 3.875rem;
+}
+
+.button button {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+    width: 10.44rem;
+  height: 2.75rem;
+}
+
+.button button:hover {
+  background-color: #333;
+}
+
+
