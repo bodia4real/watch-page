@@ -32,6 +32,7 @@ header {
   display: flex;
   align-items: center;
   padding: 0 1rem;
+  border-radius: 1.25px;
 }
 
 nav {
@@ -104,7 +105,7 @@ nav a {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-    width: 10.44rem;
+  width: 10.44rem;
   height: 2.75rem;
 }
 
@@ -113,3 +114,151 @@ nav a {
 }
 
 
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 2.8125rem; /* 45px */
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.first-feature {
+padding-top: 3.3125rem;
+}
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem;
+  max-width: 400px; /* Limit width for better readability */
+  padding-bottom: 3.75rem;
+}
+
+.feature h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500; /* Medium */
+  font-size: 2.25rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.feature p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.4375rem;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.feature img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+/* .feature.waterdrop img {
+  width: 102px;
+} */
+
+#angles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5rem; /* Adjusted padding for better spacing */
+}
+
+#angles h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500; /* Medium */
+  font-size: 45px;
+  line-height: 120%;
+  text-align: center;
+  padding-bottom: 3.3125rem; /* Spacing between title and content */
+}
+
+#angles h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+}
+
+/* Right side view image */
+#angles img.right-side {
+  width: 254px;
+  height: 254px;
+  padding-right: 2rem;
+}
+
+/* Left side view image */
+#angles img.left-side {
+  width: 244px;
+  height: 254px;
+  padding-left: 1rem;
+  padding-bottom: 4.5rem;
+}
+
+#angles h3.left{
+  padding-bottom: 4rem;
+}
+
+#angles img{
+  padding-bottom: 2rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0 0; /* ~20px top-bottom padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 143px;
+  border-radius: 1.25px;
+}
+
+.footer p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 1.75rem;
+}
+
+.footer .like-btn {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.25rem;
+  width: 10.4375rem;
+  height: 2.75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer .like-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.footer p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500; /* Medium */
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-align: center;
+}
